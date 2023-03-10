@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JpbDataSourceConfig">
+    <data-sources>
+      <data-source id="39eb1420-9778-4d98-ad0b-5a830a5e17ec" name="ab3postgressdatabase" url="jdbc:postgresql://ab3postgressdatabase.cain6bzvhgqx.us-east-1.rds.amazonaws.com/ab3postgressdatabase" driverClass="org.postgresql.Driver" />
+    </data-sources>
+  </component>
+</project>
