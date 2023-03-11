@@ -21,8 +21,8 @@ public class UserService {
         return UserRepository.existsByphoneNumber(PhoneNumber);
     }
 
-    public boolean existsByeMail(String eMail) {
-        return UserRepository.existsByeMail(eMail);
+    public boolean existsByID(UUID Id) {
+        return UserRepository.existsByID(Id);
     }
 
     @Transactional
@@ -38,16 +38,8 @@ public class UserService {
         return UserRepository.findById(id);
     }
 
-    public List<UserInfo> findByname(String firstName, String lastName) {
-        return UserRepository.findByname(firstName, lastName);
-    }
-
     public List<UserInfo> findByPhoneNumber(String phoneNumber) {
         return UserRepository.findByphoneNumber(phoneNumber);
-    }
-
-    public void deleteByPhoneNumberAndPassWord(String phoneNumber, String passWord) {
-        UserRepository.deleteByphoneNumberAndPassword(phoneNumber, passWord);
     }
 
     public void delete(UserInfo userInfo) {
