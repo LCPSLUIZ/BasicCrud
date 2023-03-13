@@ -1,5 +1,6 @@
 package com.AB3.API.AB3.API.DTO;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;
@@ -21,16 +22,10 @@ public class UserDTO {
 
     @NotBlank
     @Email
-    @UniqueElements
+    @JsonProperty("eMail")
     private String eMail;
 
     @NotBlank
-    @UniqueElements
     private String phoneNumber;
-
-
-
-
-
 
 }

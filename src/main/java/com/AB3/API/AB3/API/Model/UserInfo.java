@@ -42,10 +42,4 @@ public class UserInfo implements Serializable {
     @Column(nullable = false)
     private LocalDateTime dateTimeOfRequest;
 
-
-
-
-
-
-
 }

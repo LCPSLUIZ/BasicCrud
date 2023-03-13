@@ -2,7 +2,6 @@ package com.AB3.API.AB3.API.Service;
 
 import com.AB3.API.AB3.API.Model.UserInfo;
 import com.AB3.API.AB3.API.Repository.UserRepository;
-import org.apache.catalina.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -21,8 +20,8 @@ public class UserService {
         return UserRepository.existsByphoneNumber(PhoneNumber);
     }
 
-    public boolean existsByID(UUID Id) {
-        return UserRepository.existsByID(Id);
+    public boolean existsByeMail(String eMail) {
+        return  UserRepository.existsByeMail(eMail);
     }
 
     @Transactional
