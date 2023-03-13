@@ -23,5 +23,5 @@
 }
 
 ## DataBase information
-- The Database that I use here are configured to accept only my IP through the Route Table, Security Group, and VPC.
-- Therefore, the only change that you need to do to use this API is the **application.properties** archive.
+- The Database that I have used here are configured to accept only my IP through the Route Table, Security Group, and VPC.
+- Therefore, the only change that need to do to use this API is the **application.properties** archive.
