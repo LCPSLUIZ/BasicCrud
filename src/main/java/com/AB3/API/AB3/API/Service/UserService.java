@@ -1,5 +1,6 @@
 package com.AB3.API.AB3.API.Service;
 
+import com.AB3.API.AB3.API.DTO.UserDTO;
 import com.AB3.API.AB3.API.Model.UserInfo;
 import com.AB3.API.AB3.API.Repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -43,6 +44,14 @@ public class UserService {
 
     public void delete(UserInfo userInfo) {
         UserRepository.delete(userInfo);
+    }
+
+    public void update(UserInfo userInfo, UserDTO userDTO) {
+        userInfo.setEMail(userDTO.getEMail());
+        userInfo.setFirstName(userDTO.getFirstName());
+        userInfo.setPassWord(userDTO.getPassWord());
+        userInfo.setLastName(userDTO.getLastName());
+        userInfo.setPhoneNumber(userDTO.getPhoneNumber());
     }
 
 }

@@ -1,0 +1,28 @@
+2023-03-15 15:09:33.497 [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-03-15 15:09:33.540 [restartedMain] Starting Ab3ApiApplication using Java 18.0.2 with PID 18377 (/Users/luqclaud/Documents/AB3/API/AB3-API/target/classes started by luqclaud in /Users/luqclaud/Documents/AB3/API/AB3-API)
+2023-03-15 15:09:33.542 [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-03-15 15:09:34.374 [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-15 15:09:34.439 [restartedMain] Finished Spring Data repository scanning in 47 ms. Found 1 JPA repository interfaces.
+2023-03-15 15:09:35.066 [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-03-15 15:09:35.077 [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-15 15:09:35.078 [restartedMain] Starting service [Tomcat]
+2023-03-15 15:09:35.078 [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-15 15:09:35.132 [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-03-15 15:09:35.134 [restartedMain] Root WebApplicationContext: initialization completed in 1513 ms
+2023-03-15 15:09:35.352 [restartedMain] HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-03-15 15:09:35.640 [restartedMain] HikariPool-1 - Starting...
+2023-03-15 15:09:46.855 [restartedMain] Stopping service [Tomcat]
+2023-03-15 15:10:43.801 [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2023-03-15 15:10:43.840 [restartedMain] Starting Ab3ApiApplication using Java 18.0.2 with PID 18460 (/Users/luqclaud/Documents/AB3/API/AB3-API/target/classes started by luqclaud in /Users/luqclaud/Documents/AB3/API/AB3-API)
+2023-03-15 15:10:43.841 [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-03-15 15:10:44.626 [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-15 15:10:44.690 [restartedMain] Finished Spring Data repository scanning in 44 ms. Found 1 JPA repository interfaces.
+2023-03-15 15:10:45.317 [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2023-03-15 15:10:45.328 [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2023-03-15 15:10:45.329 [restartedMain] Starting service [Tomcat]
+2023-03-15 15:10:45.329 [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-15 15:10:45.384 [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-03-15 15:10:45.385 [restartedMain] Root WebApplicationContext: initialization completed in 1475 ms
+2023-03-15 15:10:45.609 [restartedMain] HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-03-15 15:10:45.929 [restartedMain] HikariPool-1 - Starting...
+2023-03-15 15:10:57.029 [restartedMain] Stopping service [Tomcat]
