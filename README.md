@@ -4,8 +4,9 @@
 - Java
 - Spring Framework
 - Spring Data JPA
+- Spring Logging
 - Amazon RDS (Relational Database Service) with Postgres Engine
-- Kinesis Data FireHose log connection (TODO)
+
 
 ## The Json Format
 
